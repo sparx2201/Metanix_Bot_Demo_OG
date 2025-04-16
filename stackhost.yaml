@@ -11,4 +11,4 @@ commands:
   package:
     - "ffmpeg"
   start:
-    - "python bot.py"
+    - "python3 bot.py"
