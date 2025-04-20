@@ -1,5 +1,6 @@
 #### Deploy in your VPS
 ````bash
+rmdir /s /q Metanix_Bot_Demo_OG
 git clone https://github.com/sparx2201/Metanix_Bot_Demo_OG
 cd Metanix_Bot_Demo_OG
 pip install -r requirements.txt
