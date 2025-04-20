@@ -53,11 +53,11 @@ class Bot(Client):
 
         
         owner = str(Config.OWNER)
-        for id in owner:
-            try:
-                await self.send_message(id, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
-            except:
-                pass
+        
+        try:
+            await self.send_message(owner, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
+        except:
+            pass
 
         if Config.LOG_CHANNEL:
             try:
