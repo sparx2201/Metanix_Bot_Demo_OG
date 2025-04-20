@@ -52,7 +52,7 @@ class Bot(Client):
         logging.info(f"{me.first_name} ✅✅ BOT started successfully ✅✅")
 
         
-        owner = str(Config.OWNER)
+        owner = Config.OWNER
         
         try:
             await self.send_message(owner, f"**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")
