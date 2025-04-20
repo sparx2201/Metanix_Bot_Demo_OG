@@ -3,7 +3,6 @@
 git clone https://github.com/sparx2201/Metanix_Bot_Demo_OG
 cd Metanix_Bot_Demo_OG
 pip install -r requirements.txt
-# <Create config.py appropriately>
 python main.py
 ````
 
