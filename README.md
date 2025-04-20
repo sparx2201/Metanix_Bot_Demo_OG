@@ -1,26 +1,11 @@
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
-
-#  RENAME_BOT
-
-
-### **RENAMER** (metadata editor)
-
-<p align="center">
-<a href="https://t.me/a1p_video_merger_bot"><img title="Telegram" src="https://img.shields.io/static/v1?label=R3n4mer&message=BOT&color=blue-green"></a> 
-</p>
-
-
-## Deploy To Render              
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/v15hnuf6n1off/Rename_Bot)
-
-## Deploy To Railway
-
-<a href="https://graph.org/file/fabd75cd5043d2cfdc13d.jpg"><img src="https://railway.app/button.svg" alt="Deploy"></a>
-
-## Deploy To Heroku
-
-<a href="https://heroku.com/deploy?template=https://github.com/v15hnuf6n1off/Rename_Bot"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a>
+#### Deploy in your VPS
+````bash
+git clone https://github.com/sparx2201/Metanix_Bot_Demo_OG
+cd Metanix_Bot_Demo_OG
+pip install -r requirements.txt
+# <Create config.py appropriately>
+python main.py
+````
 
 
 
