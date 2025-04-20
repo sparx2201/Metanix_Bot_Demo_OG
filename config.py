@@ -19,7 +19,7 @@ class Config(object):
 
     # database config
     DB_NAME = os.environ.get("DB_NAME", "metanixv2")
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://metanixv2:metanixv2@cluster5.oosleu4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster5")  # ⚠️ Required
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://meta2:meta2@cluster5.oosleu4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster5")  # ⚠️ Required
 
     # other configs
     BOT_UPTIME = time.time()
